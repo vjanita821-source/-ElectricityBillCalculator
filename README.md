@@ -22,3 +22,4 @@ This is a console-based Python project that calculates electricity bills based o
 - Pytest
 - Jenkins
 - Docker
+Project Status: Initial version completed.
