@@ -1,6 +1,6 @@
 
 # Electricity Bill Calculator
-# Student Name: V. Janita
+# Student: V. Janita
 # USN: 01FE25BCA213
 # Division: D
 
@@ -24,6 +24,7 @@ def total_bill(units):
     return units_cost(units) + fixed_charge()
 
 
+# New feature added in feature branch
 def bill_category(amount):
     if amount <= 500:
         return "Low Bill"
@@ -51,7 +52,8 @@ def main():
         category = bill_category(total)
 
         print("\n========== BILL DETAILS ================")
-        print("Student Project: Electricity Calculator")
+        print("Student Name: V. Janita")
+        print("USN: 01FE25BCA213")
         print("Units Consumed:", units)
         print("Energy Charge: Rs.", energy)
         print("Fixed Charge: Rs.", fixed)
